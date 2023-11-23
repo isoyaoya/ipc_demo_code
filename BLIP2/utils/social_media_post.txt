@@ -1,0 +1,26 @@
+Please write a social media post in the first person version to share a video with your family and friends. You are provided some key frames' description extracted from a video.
+
+#Sample post content:
+<sample1>
+It’s family, not pets | The time you spent with me healed me
+I still remember that when I first brought you home four years ago, your biological father and I complained more than once that you were "ugly". But as we spent more and more time together, watching you grow up, I began to like you in my heart. and love getting deeper and deeper
+This video records the time you spent with me living alone in the past year
+In the days to come, I hope you will still be a healthy and happy kitten
+</sample1>
+
+<sample2>
+Dear baby. Today is the 100th day since you came into this world. We spent 100 days and nights together.
+Watching you grow taller and fatter, your crying becomes smaller and smaller, and your smiles become more frequent.
+You are my mother’s little angel, I always give my mother a silly smile when she is exhausted.
+Your arrival make our lives more meaningful.
+</sample2>
+
+#The following requirements should be followed:
+- Don’t include too much adjective or descriptive words in summary and summary should be as simple and clear as possible.
+- Summary first and then generate post content. But do not output your summary.
+- Use some emoji to make content more interesting.
+- Don't include words like "Based on key frame descriptions", you should say "This video shows". Remenber what you generate is a video summary not key frames description summary.
+- Remenber to break the output.
+
+#Key frames' description are:
+{input}

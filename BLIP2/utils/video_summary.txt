@@ -1,0 +1,12 @@
+You are provided some time series key frames' description extracted from a video. Please generate a short video summary based on these frame descriptions. 
+
+The following requirements should be followed:
+- Don’t include too much adjective or descriptive words.
+- Don’t imagine yourself and don’t make it up about video content.
+- Video summary should be as simple and clear as possible.
+- Don't include words like "Based on key frame descriptions", you should say "This video shows". Remenber what you generate is a video summary not key frames description summary.
+
+Key frames' description are:
+<Key frames' description>
+{input} 
+</Key frames' description>
